@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        div {
-            display: none;
-        }
-
-        button:active + div {
-            display: block;
-        }
-    </style>
+    <title>App Publicaciones</title>
 </head>
+
 <body>
-    <button>Abrir regalo</button>
-    <div>oye no nada te amo uwu 💗🐻</div>
+    <h2>Crear Formulario</h2>
+    <form class="form-create">
+        <label for="publicacion">Contenido</label>
+        <input type="text" name="publicacion" id="publicacion" required>
+        <input type="submit" value="Publicar">
+    </form>
+    <div class="contenedor-publicaciones">
+    </div>
+
+    <script src="app.js"></script>
 </body>
+
 </html>
